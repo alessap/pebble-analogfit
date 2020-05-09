@@ -469,10 +469,14 @@ static void window_load(Window *window) {
   text_layer_set_text_alignment(s_connection_layer, GTextAlignmentCenter);
   handle_bluetooth(connection_service_peek_pebble_app_connection());
 	*/
+	// s_bluetooth_layer = bluetooth_layer_create();
+	// bluetooth_set_position(phone_baterry_available ? GPoint(120, 79) : GPoint(124, 15));
+	// bluetooth_vibe_disconnect(false);
+	// bluetooth_vibe_connect(false);
 	s_bluetooth_layer = bluetooth_layer_create();
-	bluetooth_set_position(phone_baterry_available ? GPoint(120, 79) : GPoint(124, 15));
-	bluetooth_vibe_disconnect(false);
-	bluetooth_vibe_connect(false);
+	bluetooth_set_position(GPoint(100, 15));
+	bluetooth_vibe_disconnect(true);
+	bluetooth_vibe_connect(true);
 	
 	//s_custom_text
 	s_custom_text = text_layer_create(GRect(0, 110, bounds.size.w, 22));
