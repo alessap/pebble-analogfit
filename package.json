@@ -1,17 +1,17 @@
 {
-    "author": "IMIHOV",
+    "author": "IMIHOV&alessap",
     "dependencies": {
         "pebble-battery-bar": "^1.0.9",
         "pebble-bluetooth-icon": "^1.0.7"
     },
     "keywords": [],
-    "name": "analogfit",
+    "name": "analogfit_2",
     "pebble": {
         "capabilities": [
             "configurable",
             "health"
         ],
-        "displayName": "AnalogFit",
+        "displayName": "AnalogFit_2",
         "enableMultiJS": true,
         "messageKeys": [
             "PhoneBattery",
@@ -113,5 +113,5 @@
             "watchface": true
         }
     },
-    "version": "1.2.0"
+    "version": "1.2.1"
 }

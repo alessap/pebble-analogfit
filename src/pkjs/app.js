@@ -17,7 +17,8 @@ var config = {
 };
 
 Pebble.addEventListener('showConfiguration', function() {
-	var configurationUrl = 'https://cloud.imihov.com/analog-fit/index.html';
+	// var configurationUrl = 'https://cloud.imihov.com/analog-fit/index.html';
+	var configurationUrl = 'https://healthpebble.z19.web.core.windows.net/';
 
   //console.log("showing configuration");
   var options = config.getConfig();
